@@ -7,8 +7,8 @@ Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "stdm.nodejs.test", "js\stdm
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Spec", "Spec", "{E2F57364-0122-4E46-A182-FF96A30416B2}"
 	ProjectSection(SolutionItems) = preProject
+		alternative-html-blocks.txt = alternative-html-blocks.txt
 		spec.txt = spec.txt
-		spec2js.js = spec2js.js
 	EndProjectSection
 EndProject
 Global
