@@ -14,7 +14,7 @@
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
     <ScriptArguments>-pause</ScriptArguments>
     <StartWebBrowser>True</StartWebBrowser>
-    <Name>stdm.js</Name>
+    <Name>stdm.nodejs.test</Name>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
