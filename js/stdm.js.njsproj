@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{59b8553f-d704-4ac8-87ce-af11e6948188}</ProjectGuid>
     <ProjectHome />
-    <ProjectView>ShowAllFiles</ProjectView>
+    <ProjectView>ProjectFiles</ProjectView>
     <StartupFile>test.js</StartupFile>
     <WorkingDirectory>..</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -19,8 +19,6 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
   <ItemGroup>
-    <Content Include="index.html" />
-    <Compile Include="bench.js" />
     <Compile Include="stmd.js" />
     <Compile Include="test.js" />
     <Compile Include="ansi\ansi.js" />
