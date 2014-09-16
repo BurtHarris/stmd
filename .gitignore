@@ -31,3 +31,7 @@ scanners.c
 bstrlib.txt
 stmd.dSYM/*
 stmd
+
+# Visual Studio directories
+/obj
+/bin
