@@ -33,6 +33,6 @@ stmd.dSYM/*
 stmd
 
 # Visual Studio artifacts
-/obj
+obj
 *.suo
 .ntvs_analysis.dat

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "stdm.js", "js\stdm.js.njsproj", "{59B8553F-D704-4AC8-87CE-AF11E6948188}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Spec", "Spec", "{E2F57364-0122-4E46-A182-FF96A30416B2}"
+	ProjectSection(SolutionItems) = preProject
+		spec.txt = spec.txt
+		spec2js.js = spec2js.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59B8553F-D704-4AC8-87CE-AF11E6948188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59B8553F-D704-4AC8-87CE-AF11E6948188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59B8553F-D704-4AC8-87CE-AF11E6948188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59B8553F-D704-4AC8-87CE-AF11E6948188}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

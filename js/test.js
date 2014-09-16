@@ -78,5 +78,16 @@ fs.readFile('spec.txt', 'utf8', function(err, data) {
       failed.toString() + ' failed.\n');
 
   console.timeEnd("Elapsed time");
+
+  // Command line option to pause, so the window 
+  // won't close immediately when launched from Visual Studio
+  process.argv.forEach( function( val, index, array) { 
+    if (val === '-pause') {
+      cursor.write("Press ENTER to exit...");
+      process.stdin.constructor('data', function(text) {
+        process.exit();
+      });
+   }
+  });
 });
 
