@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "stdm.nodejs.test", "js\stdm.nodejs.test.njsproj", "{59B8553F-D704-4AC8-87CE-AF11E6948188}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Spec", "Spec", "{E2F57364-0122-4E46-A182-FF96A30416B2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{E2F57364-0122-4E46-A182-FF96A30416B2}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 		alternative-html-blocks.txt = alternative-html-blocks.txt
